@@ -1,0 +1,19 @@
+### GET request with a header
+GET http://localhost:5000
+Accept: application/json
+
+
+### GET request with a header
+GET http://localhost:5000/isbn/1
+Accept: application/json
+
+### GET request with a header
+GET http://localhost:5000/review/1
+Accept: application/json
+
+### GET request with a header
+GET http://localhost:5000/customer/auth/
+Accept: application/json
+
+###  PUT request with a header
+PUT http://localhost:5000/customer/auth/review/1
